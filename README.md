@@ -20,3 +20,5 @@ git add submission
 git commit -m "added submission files"
 git push
 ```
+<Guillermo> <Rivas> - <guri4898>
+<Mathias> <Labuszweskli> - <MathiasLabuszweskli>
