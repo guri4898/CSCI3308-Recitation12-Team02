@@ -1,0 +1,78 @@
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git branch
+* MathiasLabuszewski
+  main
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 3), reused 5 (delta 3), pack-reused 0
+Unpacking objects: 100% (5/5), 533 bytes | 23.00 KiB/s, done.
+From github.com:guri4898/CSCI3308-Recitation12-Team02
+   50cf4bb..8b3e7c9  guri4898   -> origin/guri4898
+Already up to date.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git checkout MathiasLabuszewski
+Switched to branch 'MathiasLabuszewski'
+Your branch is up to date with 'origin/MathiasLabuszewski'.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 275 bytes | 25.00 KiB/s, done.
+From github.com:guri4898/CSCI3308-Recitation12-Team02
+   1ff2780..902441c  main       -> origin/main
+Updating 1ff2780..902441c
+Fast-forward
+ main.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git checkout MathiasLabuszewski
+Switched to branch 'MathiasLabuszewski'
+Your branch is up to date with 'origin/MathiasLabuszewski'.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git merge mian
+merge: mian - not something we can merge
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git merge maim
+merge: maim - not something we can merge
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git merge main
+Auto-merging main.cpp
+CONFLICT (content): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>code main.cpp
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git add main.c
+fatal: pathspec 'main.c' did not match any files
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git add main.cpp
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git  commit -m "Merging changes with return value 4"
+[MathiasLabuszewski 7a5c39e] Merging changes with return value 4
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>git push
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 237 bytes | 237.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:guri4898/CSCI3308-Recitation12-Team02.git
+   4b58821..7a5c39e  MathiasLabuszewski -> MathiasLabuszewski
+
+C:\Users\trute\SoftwareDev\CSCI3308-Recitation12-Team02>
